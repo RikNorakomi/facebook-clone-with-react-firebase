@@ -1,5 +1,6 @@
 ## Firebase Hosting deployment URL:
-This project has been deployed via Firebase Hosting at: https://react-facebook-clone.web.app/
+Check out the live version deployed via Firebase Hosting at: 
+==> https://react-facebook-clone.web.app/ <==
 
 This project has been a code along from the Clever Programmer tutorial at: https://www.youtube.com/watch?v=B-kxUMHBxNo
 
