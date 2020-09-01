@@ -7,6 +7,12 @@ The project contains:
 - login functionality via Google SignIn
 - basic UI Clone of the new facebook design
 
+Deploying to firebase hosting via the following commands:
+- firebase login 
+- firebase init 
+- select Hosting and press enter 
+- npm run build
+
 This project has been a code along from the Clever Programmer tutorial at: https://www.youtube.com/watch?v=B-kxUMHBxNo
 
 
