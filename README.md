@@ -2,6 +2,11 @@
 Check out the live version deployed via Firebase Hosting at: 
 ==> https://react-facebook-clone.web.app/ <==
 
+The project contains:
+- a real time database via firebase Firestor
+- login functionality via Google SignIn
+- basic UI Clone of the new facebook design
+
 This project has been a code along from the Clever Programmer tutorial at: https://www.youtube.com/watch?v=B-kxUMHBxNo
 
 
