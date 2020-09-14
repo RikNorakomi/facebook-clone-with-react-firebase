@@ -1,3 +1,21 @@
+## Firebase Hosting deployment URL:
+Check out the live version deployed via Firebase Hosting at: 
+==> https://react-facebook-clone.web.app/ <==
+
+The project contains:
+- a real time database via firebase Firestor
+- login functionality via Google SignIn
+- basic UI Clone of the new facebook design
+
+Deploying to firebase hosting via the following commands:
+- firebase login 
+- firebase init 
+- select Hosting and press enter 
+- npm run build
+
+This project has been a code along from the Clever Programmer tutorial at: https://www.youtube.com/watch?v=B-kxUMHBxNo
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
