@@ -1,0 +1,64 @@
+.messageSender {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  background-color: lightgray;
+  border-radius: 15px;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+  width: 100%;
+}
+
+.messageSender___top {
+  display: flex;
+  border-bottom: 1px solid #eff2f5;
+  padding-bottom: 15px;
+  padding: 15px;
+}
+
+.messageSender___top > form {
+  flex: 1;
+  display: flex;
+}
+
+/* For mobile device add a media query like this to add the submit button */
+@media (max-width: 1200px) {
+  .messageSender___top > form > button {
+    display: visible;
+  }
+}
+
+.messageSender___top > form > input {
+  outline-width: 0;
+  border: none;
+  padding: 5px 20px;
+  margin: 0 10px;
+  border-radius: 999px;
+  background-color: #eff2f5;
+}
+
+.messageSender___top > form > button {
+  display: none;
+}
+
+.messageSender___bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+.messageSender___option {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  color: grey;
+  margin: 5px;
+}
+
+.messageSender___option > h3 {
+  font-size: medium;
+  cursor: pointer;
+  margin-left: 10px;
+  max-lines: 1;
+}
+.messageSender___option:hover {
+  background-color: #eff2f5;
+  border-radius: 20px;
+}

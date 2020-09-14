@@ -1,0 +1,84 @@
+.header {
+  display: flex;
+  padding: 15px 20px;
+  justify-content: space-between;
+
+  position: sticky;
+  background-color: white;
+  z-index: 100;
+  top: 0;
+  box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+
+.header___left {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header___input {
+  display: flex;
+  align-items: center;
+  background-color: #eff2f5;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 33px;
+}
+
+.header___left > img {
+  height: 40px;
+}
+
+.header___input > input {
+  border: none;
+  background-color: transparent;
+  outline-width: 0;
+}
+
+.header___center {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.header___option > .MuiSvgIcon-root {
+  color: gray;
+}
+
+.header___option:hover > .MuiSvgIcon-root {
+  color: #2e81f4;
+}
+
+.header___option {
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  cursor: pointer;
+}
+
+.header___option:hover {
+  background-color: #eff2f5;
+  border-radius: 10px;
+  align-items: center;
+  padding: 0 30px;
+  border-bottom: none;
+}
+
+.header___option--active > .MuiSvgIcon-root {
+  color: #2e81f4;
+}
+.header___option--active {
+  border-bottom: 4px solid #2e81f4;
+}
+
+.header___info {
+  display: flex;
+  align-items: center;
+}
+
+.header___info > h4 {
+  margin-left: 10px;
+}
+
+.header___right {
+  display: flex;
+}
